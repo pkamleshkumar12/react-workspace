@@ -7,7 +7,7 @@ export default function PhoneConfirmation() {
   const [value, setValue] = useState();
   return (
     <div className={style.phoneConfirmContainer}>
-      <Link exact to="/" className={style.backBtn}>
+      <Link  to="/" className={style.backBtn}>
         <img src="images/arrow.png" alt="" />
       </Link>
       <h1>Enter your phone</h1>
@@ -22,7 +22,7 @@ export default function PhoneConfirmation() {
         <span>Terms of Services and Privacy Policy.</span> Thanks!
       </p>
       <Link
-        exact
+        
         to="/code_confirm"
         className="primaryBtn d-flex align-items-center"
       >

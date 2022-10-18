@@ -16,10 +16,10 @@ export default function AllowNotification() {
             <p>Notifications may include alerts, sounds, and icon badges</p>
           </div>
           <div className={style.action_btn}>
-            <Link exact to="/home">
+            <Link  to="/home">
               Don't Allow
             </Link>
-            <Link exact to="/home">
+            <Link  to="/home">
               Allow
             </Link>
             <img
