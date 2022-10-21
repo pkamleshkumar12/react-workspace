@@ -43,6 +43,7 @@ a:hover{
   position: relative;
   width: 100%;
   max-width: 500px;
-  margin: au;
+  margin: auto;
+  overflow: hidden;
 }
 
