@@ -7,6 +7,8 @@ import CodeConfirm from "./pages/CodeConfirm";
 import AllowNotification from "./pages/AllowNotification";
 import AppLayout from "./pages/Layout/AppLayout";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore"
+import Profile from "./pages/Profile"
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <AppLayout>
         <Routes>
           <Route exact path="/home" element={<Home />} />
+          <Route exact path="/explore" element={<Explore />} />
+          <Route exact path="/profile" element={<Profile />} />
         </Routes>
       </AppLayout>
     </BrowserRouter>
